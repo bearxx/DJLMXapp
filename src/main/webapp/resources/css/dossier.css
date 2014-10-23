@@ -1,0 +1,10 @@
+.thumb {
+	float:left;
+	margin:9px;
+	padding:2px;
+	border:#999 1px solid;
+	cursor:pointer;
+}
+.voice audio {
+	margin:10px 0;
+}

@@ -1,0 +1,261 @@
+
+.tab-edit-icon{
+  background-image: url(../images/edit.png) !important;
+  background-repeat: no-repeat;
+}
+
+.search-icon {
+  background-image: url(../images/search.png) !important;
+  background-repeat: no-repeat;
+}
+
+.reset-icon {
+  background-image: url(../images/reset.png) !important;
+  background-repeat: no-repeat;
+}
+
+.print-icon {
+  background-image: url(../images/print.png) !important;
+  background-repeat: no-repeat;
+}
+
+.group-icon {
+  background-image: url(../images/group.png) !important;
+  background-repeat: no-repeat;
+}
+
+.detail-icon {
+  background-image: url(../images/detail.png) !important;
+  background-repeat: no-repeat;
+}
+
+.content-icon {
+  background-image: url(../images/content.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-riskmgr {
+  background-image: url(../images/management.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-monitor {
+  background-image: url(../images/monitor.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-alert {
+  background-image: url(../images/alert.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-brush {
+  background-image: url(../images/brush.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-archive {
+  background-image: url(../images/archive.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-list {
+  background-image: url(../images/list.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-system {
+  background-image: url(../images/system.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-attention {
+  background-image: url(../images/attention.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-process {
+  background-image: url(../images/process.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-customer-query {
+  background-image: url(../images/customer-query.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-rank-history {
+  background-image: url(../images/rank-history.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-rank {
+  background-image: url(../images/rank.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-user-settings {
+  background-image: url(../images/user-settings.png) !important;
+  background-repeat: no-repeat;
+}
+
+
+.navigator-business {
+  background-image: url(../images/business.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-engines {
+  background-image: url(../images/engines.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-preprocessors {
+  background-image: url(../images/preprocessors.gif) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-whitelist {
+  background-image: url(../images/whitelist.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-graylist {
+  background-image: url(../images/graylist.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-blacklist {
+  background-image: url(../images/blacklist.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-horrorlist {
+  background-image: url(../images/horrorlist.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-concernlist {
+  background-image: url(../images/concernlist.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-limitcontrol {
+  background-image: url(../images/limitcontrol.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-risklevel {
+  background-image: url(../images/risklevel.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-risktype {
+  background-image: url(../images/risktype.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-securitypolicy {
+  background-image: url(../images/security_policy.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-report {
+  background-image: url(../images/report.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-chart {
+  background-image: url(../images/chart.png) !important;
+  background-repeat: no-repeat;
+}
+
+.tab-home {
+  background-image: url(../images/home.png) !important;
+  background-repeat: no-repeat;
+}
+
+.tab-close {
+  background-image: url(../images/close.png) !important;
+  background-repeat: no-repeat;
+}
+
+.tab-close-all {
+  background-image: url(../images/close-all.png) !important;
+  background-repeat: no-repeat;
+}
+
+.tab-close-other {
+  background-image: url(../images/close-other.png) !important;
+  background-repeat: no-repeat;
+}
+
+.tab-add-icon {
+  background-image: url(../images/add.png) !important;
+  background-repeat: no-repeat;
+}
+
+.tab-edit-icon {
+  background-image: url(../images/edit.png) !important;
+  background-repeat: no-repeat;
+}
+
+.tab-save-icon {
+  background-image: url(../images/save.png) !important;
+  background-repeat: no-repeat;
+}
+
+.tab-remove-icon {
+  background-image: url(../images/remove.png) !important;
+  background-repeat: no-repeat;
+}
+
+.tab-refresh-icon {
+  background-image: url(../images/refresh.png) !important;
+  background-repeat: no-repeat;
+}
+
+.button-ok {
+  background-image: url(../images/ok.png) !important;
+  background-repeat: no-repeat;
+}
+
+.button-cancel {
+  background-image: url(../images/cancel.png) !important;
+  background-repeat: no-repeat;
+}
+
+.import-icon {
+  background-image: url(../images/import.png) !important;
+  background-repeat: no-repeat;
+}
+
+.help-icon {
+  background-image: url(../images/information-balloon.png) !important;
+  background-repeat: no-repeat;
+}
+
+.stop-icon {
+  background-image: url(../images/stop.png) !important;
+  background-repeat: no-repeat;
+}
+
+.notify-icon {
+  background-image: url(../images/notify.png) !important;
+  background-repeat: no-repeat;
+}
+
+.sound-icon {
+  background-image: url(../images/sound.png) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-verify {
+  background-image: url(../images/verify.gif) !important;
+  background-repeat: no-repeat;
+}
+
+.navigator-notify {
+  background-image: url(../images/notify1.png) !important;
+  background-repeat: no-repeat;
+}

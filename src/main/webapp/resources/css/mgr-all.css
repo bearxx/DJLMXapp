@@ -1,0 +1,14 @@
+@import url("mgr-images.css");
+@import url("ux/css/ItemSelector.css");
+
+/* grayed out combobox item */
+.x-combo-grayed-out-item {
+	color: lightgray;
+	background-color: whitesmoke;
+	font-style: italic;
+}
+
+.disabled-row {
+	color: gray;
+	opacity: 0.5;
+}
