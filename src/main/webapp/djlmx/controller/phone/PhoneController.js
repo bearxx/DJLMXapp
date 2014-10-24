@@ -23,6 +23,7 @@ Ext.define('djlmx.controller.phone.PhoneController', {
 	  var me = this;
 	  Ext.data.JsonP.request({
 		  url : 'http://localhost:8081/qmwebservice/rest/esper/startPhone',
+//		  url : _remote_esper_ip + '/qmwebservice/rest/esper/startPhone',
 		  callbackKey : 'callback',
 		  params : {
 			  page:1,
@@ -52,6 +53,7 @@ Ext.define('djlmx.controller.phone.PhoneController', {
 	  var me = this;
 	  Ext.data.JsonP.request({
 		  url : 'http://localhost:8081/qmwebservice/rest/esper/result',
+//		  url : _remote_esper_ip + 'http://localhost:8081/qmwebservice/rest/esper/result',
 		  method : 'GET',
 		  timeout : 60000,
 		  success : function(resp) {
@@ -81,6 +83,7 @@ Ext.define('djlmx.controller.phone.PhoneController', {
 	  	  payment = inputPanel.down('textfield[fieldLabel=Payment]').getValue();
 	  Ext.data.JsonP.request({
 		  url : 'http://localhost:8081/qmwebservice/rest/esper/phone',
+//		  url : _remote_esper_ip + 'http://localhost:8081/qmwebservice/rest/esper/phone',
 		  method : 'GET',
 		  params : {
 			  id : id,
@@ -100,6 +103,7 @@ Ext.define('djlmx.controller.phone.PhoneController', {
 	  var me = this;
 	  Ext.data.JsonP.request({
 		  url : 'http://localhost:8081/qmwebservice/rest/esper/stopPhone',
+//		  url : _remote_esper_ip + 'http://localhost:8081/qmwebservice/rest/esper/stopPhone',
 		  success : function(respText) {
 //			  var res = Ext.JSON.decode(respText.responseText).success;
 			  var res = respText.success;
@@ -125,6 +129,7 @@ Ext.define('djlmx.controller.phone.PhoneController', {
 	  var status = null;
 	  Ext.data.JsonP.request({
 		  url : 'http://localhost:8081/qmwebservice/rest/esper/status',
+//		  url : _remote_esper_ip + 'http://localhost:8081/qmwebservice/rest/esper/status',
 		  method: 'GET',
 		  success : function(resp) {
 //			  var isRunning = Ext.decode(resp.responseText).isRunning;

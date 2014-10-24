@@ -12,7 +12,8 @@ Ext.define('djlmx.store.phone.RecordStore', {
 	],
 	proxy : {
 		type : 'jsonp',
-		url : 'http://localhost:8081/qmwebservice/rest/phone/list',
+		url :  'http://localhost:8081/qmwebservice/rest/phone/list',
+//		url : _remote_esper_ip + '/qmwebservice/rest/phone/list',
 		reader : {
 			type : 'json',
 			root : 'data',

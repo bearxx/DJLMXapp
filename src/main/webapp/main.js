@@ -1,10 +1,19 @@
 Ext.override(Ext.tree.View, {
     enableTextSelection: true
 });
+var _remote_esper_ip = null;
 delete Ext.tip.Tip.prototype.minWidth;
 delete Ext.tip.Tip.prototype.maxWidth;
 Ext.override(Ext.form.Field, {
     initComponent: function () {
+    	Ext.Ajax.request({
+    		url : 'rest/init/service',
+    		method : 'GET',
+    		success : function(resp) {
+    			_remote_esper_ip = Ext.decode(resp.responseText).data;
+    		}
+    	});
+    	
         var fl = this.fieldLabel, h = this.helpText;
         if (h && h !== '' && fl) {
             this.fieldLabel = fl + (h ? '<span style="color:green;" data-qtip="' + h + '">?</span> ' : '');
